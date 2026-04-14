@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Bot</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>🤖 AI Chat Bot</h1>
+            <p>Prosty bot AI - napisz cześć, aby rozpocząć</p>
+        </header>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Witaj! Jestem prostym botem AI. W czym mogę Ci pomóc?
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                id="messageInput" 
+                placeholder="Wpisz wiadomość..." 
+                autocomplete="off"
+            >
+            <button id="sendButton" onclick="sendMessage()">
+                <span>Wyślij</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
