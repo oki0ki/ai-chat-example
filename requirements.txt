@@ -1,2 +1,4 @@
-# Ten projekt nie wymaga zewnętrznych bibliotek
-# Wystarczy standardowa biblioteka Pythona
+# Ten projekt nie wymaga zewnętrznych bibliotek # Wystarczy standardowa biblioteka Pythona
+
+# Wymagania dla wersji webowej z Flask
+Flask==3.0.0
